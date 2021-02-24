@@ -1,0 +1,34 @@
+<body>
+  <form action="/show" method="post">
+    <label for="image">Image: </label>
+    <input type="text" id="image" name="image"><br>
+    <label for="format">Format: </label>
+	<div id="format">
+		<div>
+    		<input type="radio" id="format-default" name="format" value="default" required checked>
+			<label for="format-default">default</label>
+		</div>
+		<div>
+    		<input type="radio" id="format-html" name="format" value="html">
+			<label for="format-html">html</label>
+		</div>
+		<div>
+    		<input type="radio" id="format-yaml" name="format" value="yaml">
+			<label for="format-yaml">yaml</label>
+		</div>
+		<div>
+    		<input type="radio" id="format-json" name="format" value="json">
+			<label for="format-json">json</label>
+		</div>
+		<div>
+    		<input type="radio" id="format-spdxjson" name="format" value="spdxjson">
+			<label for="format-spdxjson">spdxjson</label>
+		</div>
+		<div>
+    		<input type="radio" id="format-spdxtagvalue" name="format" value="spdxtagvalue">
+			<label for="format-spdxtagvalue">spdxtagvalue</label>
+		</div>
+	</div>
+    <input type="submit" value="submit">
+  </form>
+</body>
